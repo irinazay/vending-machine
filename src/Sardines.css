@@ -1,0 +1,33 @@
+.Sardines {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sardines h1 a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.Sardines h1 a:hover {
+  text-decoration: underline;
+}
+
+.sardines-message {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Sardines h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,44 @@
+.Chips {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.chips-message {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 300px;
+}
+
+.chips-message a {
+  width: 400px;
+  color: white;
+  text-decoration: none;
+}
+
+.chips-message a:hover {
+  text-decoration: underline;
+}
+.chips-message button {
+  background-color: rgb(194, 220, 228);
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.chips-message button:hover {
+  background-color: rgb(161, 211, 226);
+}
+
+.chips-bags {
+  margin: 20px;
+  height: 200px;
+}
